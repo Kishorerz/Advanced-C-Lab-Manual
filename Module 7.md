@@ -41,7 +41,7 @@ printf("Age:%d\nName:%svaccine:%d\neligibility:yes",e.age,e.n,e.age);
 
 Output:
 
-![alt text](image.png)
+![alt text](./7m-images/image.png)
 
 
 
@@ -85,7 +85,7 @@ return n.a+n.b;
 
 
 ### Output:
-![alt text](image-1.png)
+![alt text](./7m-images/image-1.png)
 
 
 
@@ -131,7 +131,7 @@ printf("\n%s File Closed",name);
 }
 ```
 ### Output:
-![alt text](image-4.png)
+![alt text](./7m-images/image-4.png)
 
 
 
@@ -181,7 +181,7 @@ printf("\nData added Successfully");
 }
 ```
 ### Output:
-![alt text](image-3.png)
+![alt text](./image-3.png)
 
 
 
@@ -258,7 +258,7 @@ int main()
 
 ### Output:
 
- ![alt text](image-2.png)
+ ![alt text](./7m-images/image-2.png)
 
 
 
