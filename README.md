@@ -182,7 +182,7 @@ printf("\nData added Successfully");
 }
 ```
 ### Output:
-![alt text](./image-3.png)
+![alt text](./7m-images/image-3.png)
 
 
 
