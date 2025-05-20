@@ -1,9 +1,9 @@
-EXP NO:1A C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
+## EXP NO:1A C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
 
-Aim:
+### Aim:
 To write a C program for array of structure to check eligibility for the vaccine person age above 6 years of age.
 
-Algorithm:
+### Algorithm:
 1.	Declare structure eligible with age (integer) and n (character array)
 2.	Declare variable e of type eligible
 3.	Input age and name using scanf, store in e
@@ -14,8 +14,9 @@ Else
 5.	Print details (e.age, e.n)
 6.	Return 0
  
-Program:
-```c
+### Program:
+
+```C
 #include<stdio.h> struct eligib
 {
 int age; char n[4];
@@ -39,16 +40,14 @@ printf("Age:%d\nName:%svaccine:%d\neligibility:yes",e.age,e.n,e.age);
 }
 ```
 
-Output:
 
-![alt text](./7m-images/image.png)
+### Output:
 
-
-
+![alt text](image.png)
 
 
-## Result:
-Thus, the program to check eligibility for the vaccine is verified successfully. 
+### Result:
+Thus, the program to check eligibility for the vaccine is verified successfully.
 
 
 ## EXP NO:1B  C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
@@ -65,8 +64,10 @@ To write a C program for passing structure as function and returning a structure
 7.	Return 0
  
 ### Program:
-```c
-#include<stdio.h> struct numbers
+
+~~~c
+#include<stdio.h> 
+struct numbers
 {
 int a; int b;
 }n;
@@ -80,20 +81,16 @@ int add(struct numbers n)
 {
 return n.a+n.b;
 }
-```
-
-
-
+~~~
 ### Output:
-![alt text](./7m-images/image-1.png)
+
+![alt text](image-1.png)
 
 
 
 
 
-
-
-## Result:
+### Result:
 Thus, the program for passing structure as function and returning a structure from a function
  is verified successfully
  
@@ -120,6 +117,7 @@ Use scanf to input the file name into the name array.
 5.	Return 0 to indicate successful program execution.
  
 ### Program:
+
 ```c
 #include <stdio.h> int main()
 {
@@ -131,14 +129,9 @@ printf("\n%s File Closed",name);
 }
 ```
 ### Output:
-![alt text](./7m-images/image-4.png)
 
 
-
-
-
-
-
+![alt text](image-2.png)
 
 
 
@@ -149,7 +142,7 @@ Thus, the program to read a file name from user is verified successfully
 ## EXP NO:1D   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
 ### Aim:
 To write a C program to read, a file and insert text in that file
-### Algorithm:
+Algorithm:
 1.	Include the necessary header file stdio.h.
 2.	Begin the main function.
 3.	Declare a file pointer p.
@@ -167,6 +160,7 @@ Use scanf to input the file name into the name array and the number of strings i
 5.	Return 0 to indicate successful program execution.
  
 ### Program:
+
 ```c
 #include <stdio.h> int main()
 {
@@ -181,7 +175,9 @@ printf("\nData added Successfully");
 }
 ```
 ### Output:
-![alt text](./image-3.png)
+
+![alt text](image-3.png)
+
 
 
 
@@ -209,7 +205,7 @@ The aim of this program is to dynamically allocate memory to store information a
 
 6.Input the details of each subject
 
-      7.Use a for loop to read the name and marks of each subject using scanf. For each   subject, store the name as a string and marks as an integer in the dynamically allocated memory.
+7.Use a for loop to read the name and marks of each subject using scanf. For each   subject, store the name as a string and marks as an integer in the dynamically allocated memory.
 
 8.Display the details of each subject
 
@@ -221,9 +217,10 @@ The aim of this program is to dynamically allocate memory to store information a
 
 12.Return from the main function
 
-13.End the program by returning 0### .
-### Program:
-```c
+13.End the program by returning 0.
+
+## Program:
+```C
 #include <stdio.h>
 #include <stdlib.h>
 struct Subject
@@ -256,13 +253,13 @@ int main()
 }
 ```
 
-### Output:
+## Output:
 
- ![alt text](./7m-images/image-2.png)
+ 
+
+![alt text](image-4.png)
 
 
 
-
-
-### Result:
+## Result:
 Thus, the program to dynamically allocate memory to store information about multiple subjects (name and marks), input the details for each subject, and then display the stored information is verified successfully
